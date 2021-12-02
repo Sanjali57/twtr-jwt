@@ -32,7 +32,8 @@ g = dict()
 
 # mongo
 #mongo_client = MongoClient('mongodb://localhost:27017/')
-mongo_client = MongoClient("mongodb+srv://admin:admin@tweets.8ugzv.mongodb.net/tweets?retryWrites=true&w=majority")
+#mongo_client = MongoClient("mongodb+srv://admin:admin@tweets.8ugzv.mongodb.net/tweets?retryWrites=true&w=majority")
+mongo_client = MongoClient("mongodb+srv://Sanjali:Sanjali@cluster0.fmahq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 
 app = Flask(__name__)
 CORS(app)
